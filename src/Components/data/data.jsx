@@ -39,7 +39,7 @@ export const about = [
 export const portfolio = [
   {
     id: 1,
-    img: "/public/images/project1.png",
+    img: "./images/project1.png",
     tool: "React, HTML, CSS",
     title: "Landing page",
     link: "https://landing-page-ezequiel.vercel.app/",
