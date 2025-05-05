@@ -23,7 +23,7 @@ function Hero() {
                     <a className="primaryBtn" 
                         target="#" 
                         data-aos='fade-up-right'
-                        href="../../../assets/Dev_Resume.docx.pdf">Download CV</a>
+                        href="/Dev_Resume.docx.pdf">Download CV</a>
                 </div>
             ))
            }

@@ -20,7 +20,7 @@ function About() {
                                     <p>{val.desc}</p>
                                     <p>{val.desc1}</p>
                                     <div className="download">
-                                        <a target="#" href="../../../assets/Dev_Resume.docx.pdf">Download CV</a>
+                                        <a target="#" href="/Dev_Resume.docx.pdf" download>Download CV</a>
                                     </div>
                                   
                                 </div>
