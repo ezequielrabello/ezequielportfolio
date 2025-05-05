@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+    background-color: var(--primaryBackground);
+    padding: 70px;
+  }
+ footer a {
+    margin: 5px;
+    color: var(--primaryColor);
+    cursor: pointer;
+  }

@@ -1,0 +1,60 @@
+.about {
+    background-color: var(--secondaryBackground);
+    margin: auto;
+}
+
+.aboutContent {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+
+.img img {
+    width: 60%;
+    box-shadow: 2px 5px 20px black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-self: center;
+    
+}
+
+
+.download {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 17px;
+    background-color: var(--primaryColor);
+    color: var(--white);
+    padding: 15px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.download:hover {
+    background-color: transparent;
+    border: 1px solid var(--primaryColor);
+    transition: var(--transition);
+}
+
+@media screen and (min-width: 768px) {
+    .aboutContent {
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+    }
+
+    .img img {
+        width: 80%;
+    }
+
+    .info {
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+.contact {
+    background-color: var(--secondaryBackground);
+    padding: 5rem 0;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: var(--white);
+    font-weight: 700;
+}
+
+.ContactInfo p {
+    color: var(--white);
+    font-weight: 400;
+}
+
+.ContactInfo {
+    padding-top: 20px;
+}
+ 
+button {
+    width: 100%;
+}
+
+.flex {
+    flex-direction: column;
+}
+
+.infoBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .content {
+        display: flex;
+    }
+
+    .contact .right {
+      padding: 20px;
+    }
+    .contact .flex input:nth-child(1) {
+        margin-right: 10px;
+      }
+
+
+}
