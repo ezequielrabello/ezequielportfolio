@@ -47,7 +47,7 @@ export const portfolio = [
   },
   {
     id: 2,
-    img: "../../../public/images/project2.png",
+    img: "./images/project2.png",
     tool: "React, HTML, CSS",
     title: "Realtor website",
     link: "https://arealtor.vercel.app/",
@@ -55,7 +55,7 @@ export const portfolio = [
   },
   {
     id: 3,
-    img: "../../../public/images/project3.png",
+    img: "./images/project3.png",
     tool: "Vanilla Javascript, HTML, CSS",
     title: "Focus timer",
     link: "https://focustimer2-0-ten.vercel.app/",
