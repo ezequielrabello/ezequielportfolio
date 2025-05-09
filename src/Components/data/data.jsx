@@ -61,6 +61,14 @@ export const portfolio = [
     link: "https://focustimer2-0-ten.vercel.app/",
     description: "A timer that will help you to concentrate in your activities. It has features such as playing different environment sounds, it allows you to play/pause and much more!",
   },
+  {
+    id: 4,
+    img: "./images/rps.png",
+    tool: "Vanilla Javascript, HTML, CSS",
+    title: "Rock, Paper and Scissors Game",
+    link: "https://rockpaperscissors-seven-topaz.vercel.app/",
+    description: "A responsive and animated Rock Paper Scissors game built with HTML, CSS, and vanilla JavaScript. Features dynamic score tracking, delayed reveal of results for added suspense, and mobile-friendly design.",
+  },
 
 ]
 
